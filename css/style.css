@@ -1,0 +1,39 @@
+.blog-card{
+    border: 1px solid #888; 
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1657472577012-eda48cf5c29f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-color: rgba(136, 136, 136, 0.473);
+    background-blend-mode: multiply;
+    background-size: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-position: center;
+    border-radius: 15px;
+     width: 400px;
+    height: 300px;
+    display: inline-block;
+    padding: 30px; 40px;
+    margin: 20px;
+    block-sizing: border-box;
+      
+}
+.blog-card a{
+    color: blue;
+    text-align: justify;
+    .box-one{
+        width: 600px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReovqPwLdUgdIQh1SvhGoLKQvmlJsmI_pXVg&usqp=CAU);
+    }
+    border-radius: 100px;
+
+    .box-two{
+        background-image: linear-gradient(to right,red, blue);
+    }
+    border-radius: 0,15px;
+
+    .box-three{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW9bmH939jn41OiNJxAwSbjghffSUIMQlAqg&usqp=CAU);
+    }
+    .box-four{
+        box-shadow: linear-gradient(to left, blue, green );
+    }
+    border-radius: 15px; 0
